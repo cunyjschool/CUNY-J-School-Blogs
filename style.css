@@ -1,0 +1,331 @@
+/*  
+Theme Name: CUNY J-School Blogs
+Theme URI: http://www.journalism.cuny.edu
+Description: Blogs at the CUNY Graduate School of Journalism
+Version: 0.3
+Author: Drew Geraets
+Author URI: http://blogs.journalism.cuny.edu/drewgeraets
+*/
+
+
+
+/* Begin Typography & Colors */
+body {
+	font-size: small;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background: #eee;
+	color: #333;
+	line-height: 150%; }
+	
+h1 { 
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-size: 150%; }
+	
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 130%;
+	clear: both; }
+	
+h2 a, h2 a:visited {
+	text-decoration: none; }
+
+h2 a:hover {
+	text-decoration: underline; }
+		
+ul {
+	margin: 0;
+	padding: 0; }
+	
+ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none; }
+	
+a:link, a:visited {
+	color: #ff6600; }
+	
+a:hover {
+	color: #cc6600; }
+	
+#global {
+	color: #666;
+	width: 860px;
+	margin: 0 auto;
+	padding: 15px;
+	font-size: 90%; }
+
+#gloabl a:link, #global a:visited, #footer a:link, #footer a:visited {
+	color: #666; }
+	
+#global a:hover, #footer a:hover {
+	color: #ff9900; }
+
+#header {
+	background: #eee url(img/grand_central.jpg) no-repeat top;
+	color: #333;
+	height: 100px;
+	padding: 20px; }
+	
+#header h1 a, #header h1 a:visited {
+	color: #333;
+	padding: 5px;
+	background: #fff;
+	text-decoration: none; }
+	
+#header h1 a:hover {
+	color: #f06000; }
+	
+.description {
+	padding: 5px;
+	font-size: 100%;
+	background: #ff6600;
+	color: #fff; }
+	
+#nav {
+	padding: 5px;
+	border-top: 7px solid #f06000;
+	background: #ff6600;
+	margin-bottom: 20px; }
+	
+#nav ul li {
+	float: left;
+	margin-right: 7px; }
+	
+#nav ul li a {
+	display: block;
+	padding: 7px;
+	background: #f06000; }
+	
+#nav a, #nav a:visited {
+	color: #fff;
+	text-decoration: none; }
+	
+#nav a:hover {
+	color: #fff;
+	background: #e35a00; }
+
+#content {
+	width: 900px;
+	margin: 0 auto;
+	background: #fff;
+	color: #333;
+	border: 10px solid #e5e5e5; }
+
+.meta {
+	font-size: 85%;
+	padding: 5px; }
+	
+.alignleft {
+	clear: both;
+	float: left;
+	margin: 20px 20px 20px 0; }
+	
+.alignright {
+	clear: both;
+	float: right;
+	margin: 20px 0 20px 20px; }
+
+#posts {
+	clear: both;
+	float: left;
+	padding: 20px;
+	width: 600px; }
+
+#posts img {
+	margin: 10px; }
+	
+#posts ul {
+	margin: 10px; }
+	
+#posts ul li {
+	padding-left: 15px; 
+	background: url(img/icons/bullet_go.png) no-repeat 0 2px; }
+	
+#posts img.alignleft {
+	clear: both;
+	float: left;
+	margin: 20px; }
+	
+#posts img.alignright {
+	clear: both;
+	float: right;
+	margin: 20px; }
+	
+#posts .wp-caption {
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	padding: 10px;
+	font-size: 90%;
+	padding: 10px 0 10px 10px; }
+
+#posts .wp-caption img {
+	margin: 0;
+	padding: 0; }
+	
+#posts .wp-caption img.alignleft, #posts .wp-caption img.alignright {
+	float: none;
+	margin: 0;
+	padding: 0; }
+	
+#posts .wp-caption a img, #posts .wp-caption a:visited img {
+	text-decoration: none;
+	border: 1px solid #eee; }
+		
+#sidebar {
+	float: left;
+	width: 250px;
+	font-size: 90%;
+	line-height: 190%;
+	margin-bottom: 10px; }
+	
+#sidebar a, #sidebar a:visited {
+	color: #999;
+	text-decoration: none; }
+
+#sidebar a:hover {
+	text-decoration: underline; }
+	
+#sidebar h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 115%;
+	color: #eee; }
+	
+#sidebar li {
+	padding: 2px 0;
+	list-style: none; }
+	
+#sidebar ul li ul {
+	margin: 0;
+	padding: 10px;
+	background: #f8f8f8; }
+	
+#sidebar ul ul li {
+	padding-left: 18px;
+	border-bottom: 1px solid #eee;
+	background: url(img/icons/bullet_go.png) no-repeat 0 5px; }
+
+#sidebar ul ul ul {
+	margin: 0;
+	padding: 0; }
+
+#sidebar ul ul ul li {
+	margin-left: 0;
+	padding-left: 15px; 
+	background: url(img/icons/bullet_green.png) no-repeat 0 5px;
+	border-bottom: 0; }
+	
+#sidebar h2 {
+	background: #f1f1f1;
+	padding: 7px 7px 7px 30px;
+	font-size: 100%;
+	color: #333;
+	margin-top: 20px;
+	border-bottom: 1px solid #eae9e9; }
+	
+h2#pages {
+	background: #f1f1f1 url(img/icons/page_white_stack.png) no-repeat 10px; }
+	
+h2#archives {
+	background: #f1f1f1 url(img/icons/folder_page.png) no-repeat 10px; }
+	
+h2#cats {
+	background: #f1f1f1 url(img/icons/sitemap_color.png) no-repeat 10px; }
+	
+#sidebar li.linkcat h2 {
+	background: #f1f1f1 url(img/icons/script.png) no-repeat 10px; }
+	
+h2#login {
+	background: #f1f1f1 url(img/icons/key.png) no-repeat 10px; }
+
+h2#feeds {
+	background: #f1f1f1 url(img/icons/feed.png) no-repeat 10px; }
+	
+h2#authors {
+	background: #f1f1f1 url(img/icons/status_online.png) no-repeat 10px; }
+	
+h2#twitter {
+	background: #f1f1f1 url(img/icons/twitter.png) no-repeat 10px; }
+	
+#recent-comments h2 {
+	background: #f1f1f1 url(img/icons/comment.png) no-repeat 10px; }
+
+#tag_cloud h2 {
+	background: #f1f1f1 url(img/icons/tag_orange.png) no-repeat 10px; }
+
+h2.pagetitle {
+	margin-bottom: 2em; }
+
+.navigation {
+	margin-bottom: 1em; }
+	
+.audioleft, .audioright {
+	margin: 20px;
+	padding: 10px;
+	width: 300px;
+	border-top: 1px solid #eae9e9;
+	border-bottom: 1px solid #eae9e9; }
+	
+.audioleft {
+	float: left; }
+	
+.audioright {
+	float: right; }
+	
+#footer {
+	color: #666;
+	width: 860px;
+	background: #222;
+	margin: 0 auto;
+	font-size: 90%;
+	padding: 20px; }
+	
+#footer ul li {
+	float: left; 
+	margin: 10px 15px 0 0; }
+	
+#footer ul.rss li {
+	padding-left: 22px;
+	background: url(img/icons/feed.png) no-repeat 0 2px; }
+ 
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;	}
+
+.description { font-size: 90%; }
+
+.postmetadata {
+	clear: both;
+	padding: 7px;
+	font-size: 85%;
+	margin-bottom: 40px;
+	color: #666;
+	background: #f8f8f8;
+	border-bottom: 1px solid #eae9e9; }
+	
+#posts .postmetadata ul {
+	margin: 0;
+	padding: 0; }
+	
+#posts .postmetadata li {
+	margin: 0;
+	padding: 0 0 0 20px; }
+	
+#posts .postmetadata ul li.tags {
+	background: url(img/icons/tag_orange.png) no-repeat 0 2px; }
+
+.clear {
+	clear: both;
+	height: 1px; }
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; }
+	
+.clearfix {*display: inline-block;}
