@@ -13,14 +13,12 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-<script language="javascript1.4" type="text/javascript" src="http://blogs.journalism.cuny.edu/wp-content/plugins/audio-player/audio-player.js"></script>
-
 <?php wp_head(); ?>
 </head>
 
 <body>
 
-<div id="global"><a href="http://blogs.journalism.cuny.edu/">Blogs</a> at the <a href="http://www.journalism.cuny.edu">CUNY Graduate School of Journalism</a></div>
+<div id="global">Blogs at the <a href="http://www.journalism.cuny.edu">CUNY Graduate School of Journalism</a></div>
 
 <div id="content">
   <div id="header">
