@@ -26,13 +26,11 @@
 
 <?php wp_list_pages('title_li=<h2 id="pages">Pages</h2>' ); ?>
 
+	<?php wp_list_bookmarks(); ?>
+
  <li><h2 id="archives">Archives</h2>
     <ul><?php wp_get_archives('type=monthly'); ?></ul>
   </li>
-  
-
-
-<?php wp_list_bookmarks(); ?>
 
  <li><h2 id="login">Meta</h2>
     <ul>
