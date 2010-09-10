@@ -18,7 +18,7 @@
 
 <body>
 
-<div id="global">Blogs at the <a href="http://www.journalism.cuny.edu">CUNY Graduate School of Journalism</a></div>
+<div id="global"></div>
 
 <div id="content">
   <div id="header">
